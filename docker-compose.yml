@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  node-app:
+    build: openjdk:8-slim.
+    image: node-app:1.0
+    ports:
+      - '9999:9999'
