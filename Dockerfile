@@ -1,4 +1,4 @@
-FROM node:8.16.2-alpine
+FROM openjdk:8-slim
 WORKDIR /opt/app
 COPY . .
 RUN npm install
