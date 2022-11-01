@@ -1,7 +1,8 @@
 version: '3.7'
 services:
-  node-app:
-    build: .
+  openjdk-app:
+    build:
+      dockerfile: Dockerfile
     image: openjdk:8-slim
     ports:
       - '9999:9999'
